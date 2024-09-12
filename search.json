@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "My Blog Posts\n\nBlog 1"
+  },
+  {
     "objectID": "blog1.html",
     "href": "blog1.html",
     "title": "Untitled",
