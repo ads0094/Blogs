@@ -5,6 +5,8 @@ website:
   title: "Economics"
   navbar:
     right:
+      - text: "Home"
+        href: index.qmd
       - text: "About"
         href: about.qmd
       - icon: github
@@ -14,3 +16,4 @@ publish:
   gh-pages:
     branch: gh-pages
     url: https://ads0094.github.io/Blogs/
+
