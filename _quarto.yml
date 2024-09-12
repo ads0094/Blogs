@@ -1,0 +1,10 @@
+project:
+  type: website
+
+website:
+  title: "Economics"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/arianblogs
