@@ -1,0 +1,8 @@
+---
+title: "Home"
+---
+
+# My Blog Posts
+
+- [Blog 1](blog1.html)
+
