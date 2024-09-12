@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-# My Blog Posts
+Hi, I am Aryan Sultan, and here I publish my blog posts (infrequently though). 
 
 - [Blog 1](blog1.html)
 
