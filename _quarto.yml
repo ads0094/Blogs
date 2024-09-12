@@ -16,4 +16,3 @@ publish:
   gh-pages:
     branch: gh-pages
     url: https://ads0094.github.io/Blogs/
-
