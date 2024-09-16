@@ -6,13 +6,19 @@ website:
   navbar:
     right:
       - text: "Home"
-        href: index.qmd
+        href: index.html  # Ensure this points to the HTML output of your Quarto render, not the QMD file.
       - text: "About"
-        href: about.qmd
+        href: about.html  # Same as above, ensure this points to the rendered HTML.
       - icon: github
         href: https://github.com/ads0094/Blogs
+
+format:
+  html:
+    includes:
+      in-header: styles.css  # This should point to your custom CSS file.
 
 publish:
   gh-pages:
     branch: gh-pages
     url: https://ads0094.github.io/Blogs/
+
