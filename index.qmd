@@ -1,8 +1,19 @@
 ---
 title: "Home"
+format: html
+editor: visual
 ---
 
-Hi, I am Aryan Sultan, and here I publish my blog posts (infrequently though). 
+## Welcome to My Economics Insights
 
-- [Blog 1](blog1.html)
+Hi, I am Aryan Sultan, an enthusiastic explorer of economic trends and forecasting methodologies. Here, I share my insights through blogs about topics related to economics, statistics, the science of forecasting, and more. My goal is to share knowledge and spark discussions on topics I find fascinating.
 
+Discover more about how data drives decisions in the world of economics, and join me in discussing future trends and opportunities.
+
+## Posts
+[-]{.underline} \[Forecasting Methods: Simple Exponential Smoothing\](blog1.html)
+
+
+Discover more about how data drives decisions in the world of economics, and join me in discussing future trends and opportunities.
+
+Stay updated by subscribing to my newsletter and follow me on my social journey through the links below.

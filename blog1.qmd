@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Forecasting Methods: Simple Exponential Smoothing"
 format: html
 editor: visual
 ---
