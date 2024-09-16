@@ -11,9 +11,5 @@ Hi, I am Aryan Sultan, an enthusiastic explorer of economic trends and forecasti
 Discover more about how data drives decisions in the world of economics, and join me in discussing future trends and opportunities.
 
 ## Posts
-\[Forecasting Methods: Simple Exponential Smoothing\](blog1.html)
 
-
-Discover more about how data drives decisions in the world of economics, and join me in discussing future trends and opportunities.
-
-Stay updated by subscribing to my newsletter and follow me on my social journey through the links below.
+-   [Forecasting Methods: Simple Exponential Smoothing](blog1.html)
