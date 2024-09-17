@@ -1,0 +1,17 @@
+---
+format: html
+editor: visual
+html: 
+  includes:
+    in-header: about_styles.css
+---
+
+<link rel="preload" href="about_styles.css" as="style" onload="this.rel='stylesheet'"> <noscript>
+
+<link rel="stylesheet" href="about_styles.css"></noscript>
+
+<link rel="stylesheet" href="about_styles.css">
+
+## Posts
+
+-   [Inferential Statistics: Parameters and Statistics](blog1.html){style="color:white;"}
