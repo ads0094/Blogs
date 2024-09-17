@@ -1,0 +1,57 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Body and text styles */
+body {
+    background-image: url('img2.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: white; 
+    background-color: white; 
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.content-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: flex-start; /* Align items to the start of the container */
+}
+
+.content-container img {
+    border-radius: 50%; /* Makes the image round */
+    width: 100px; /* Adjust size as needed */
+    margin-right: 10px; /* Adds space between the image and the text */
+}
+
+.text-content {
+    flex: 1; /* Allows the text container to fill up the remaining space */
+}
+
+.navbar {
+    background-color: transparent; /* Makes the navbar background transparent */
+    color: white; /* Ensures text is visible, adjust as needed */
+}
+
+.navbar a {
+    color: white; /* Sets the color of links to white for visibility */
+}
+
+.navbar a:hover {
+    color: #ccc; /* Lighter gray for hover effect, adjust as needed */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
