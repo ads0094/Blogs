@@ -181,7 +181,6 @@ window.Quarto = {
 <p><strong>Challenges in Achieving True Random Sampling:</strong> For instance, selecting people based on their availability at specific times of the day excludes those who are not available, leading to a biased sample. The goal is to ensure that every individual in the population has an equal chance of being selected, without any systematic exclusions.</p>
 <p><strong>Self-Selected Samples and Bias: I</strong>f individuals select themselves into the sample (e.g., by choosing to respond to a survey), the sample is not random and will likely be biased. Examples include surveys where participants choose to respond, which attracts a certain type of respondent (those with strong opinions or more time), leading to non-representative results.</p>
 <p><strong>The Importance of Non-Biased Sampling in Research: Non-biased</strong>, random sampling is crucial for accurate research and generalization. It warns against the common pitfalls of non-random sampling, such as allowing individuals to select themselves into a study or using convenience sampling methods that systematically exclude certain groups.</p>
-<p>In summary, the text explains the critical importance of random and representative sampling in research, the challenges in achieving true random sampling, and the biases introduced by self-selected samples. The emphasis is on the need for careful and deliberate sampling methods to ensure that the sample accurately reflects the population and allows for valid generalizations.</p>
 </section>
 <section id="stratified-or-quota-sampling" class="level4">
 <h4 class="anchored" data-anchor-id="stratified-or-quota-sampling">Stratified or Quota Sampling</h4>
@@ -295,13 +294,13 @@ window.Quarto = {
 <ol type="1">
 <li><strong>Deviations of Each Sample Mean from the Mean of Sample Means</strong>:</li>
 </ol>
-<pre><code>-   $(85.4 - 82.55)^2 = 8.1225$
+<pre><code>$(85.4 - 82.55)^2 = 8.1225$
 
--   $(80 - 82.55)^2 = 6.5025$
+$(80 - 82.55)^2 = 6.5025$
 
--   $(89.8 - 82.55)^2 = 52.0225$
+$(89.8 - 82.55)^2 = 52.0225$
 
--   $(75 - 82.55)^2 = 57.0025$</code></pre>
+$(75 - 82.55)^2 = 57.0025$</code></pre>
 <ol start="2" type="1">
 <li><p><strong>Sum the Squared Deviations</strong>: <span class="math inline">\(\text{Sum of Squared Deviations} = 8.1225 + 6.5025 + 52.0225 + 57.0025 = 123.65\)</span></p></li>
 <li><p><strong>Calculate the Variance</strong> by dividing by <span class="math inline">\(n-1\)</span> (degrees of freedom, where <span class="math inline">\(n = 4\)</span>: <span class="math inline">\(\text{Variance} = \frac{123.65}{3} \approx 41.2167\)</span></p></li>
@@ -332,30 +331,30 @@ window.Quarto = {
 <li><p>The critical element is knowing the population standard deviation (σ).</p></li>
 </ul>
 <p>Here are the common scenarios:</p>
-<ol type="1">
+<ul>
 <li>One-sample z-test:</li>
-</ol>
-<pre><code>a\. You know the population standard deviation (σ)
+</ul>
+<pre><code>You know the population standard deviation ($\sigma$ )
 
-b\. You know or hypothesize a population mean (μ)
+You know or hypothesize a population mean ($\mu$)
 
-c\. You compare your sample mean to this known/hypothesized population mean</code></pre>
-<ol start="2" type="1">
+You compare your sample mean to this known/hypothesized population mean</code></pre>
+<ul>
 <li>Two-sample z-test:</li>
-</ol>
-<pre><code>a\. You know the population standard deviations for both populations
+</ul>
+<pre><code>You know the population standard deviations for both populations
 
-b\. You don't necessarily need to know the population means
+You don't necessarily need to know the population means
 
-c\. You're testing if there's a significant difference between the two population means</code></pre>
-<ol start="3" type="1">
+You're testing if there's a significant difference between the two population means</code></pre>
+<ul>
 <li>Z-test for proportions:</li>
-</ol>
-<pre><code>a\. Used for categorical data
+</ul>
+<pre><code>Used for categorical data
 
-b\. You don't need to know means or standard deviations
+You don't need to know means or standard deviations
 
-c\. You use the properties of the binomial distribution</code></pre>
+You use the properties of the binomial distribution</code></pre>
 <p>So, to summarize: for a z-test, you always need to know the population standard deviation(s), but you don’t always need to know the population mean(s). The population mean might be what you’re testing against or trying to estimate.</p>
 <p>In the context of a <strong>sampling distribution</strong>, z-scores are used to determine how unusual or typical a sample mean is relative to the population mean. The <strong>z-test</strong> is a statistical method that allows you to test whether the difference between a sample mean and the known population mean is statistically significant or whether it could be attributed to sampling error. OR if we are computing the means for to population, we need to know the hypothesised difference between the two populations.</p>
 <p>Example:</p>
@@ -391,12 +390,12 @@ c\. You use the properties of the binomial distribution</code></pre>
 </ul>
 <p><strong>Understanding the 1.96 Rule:</strong></p>
 <p>The “1.96 rule” corresponds to a <strong>95% confidence interval</strong> in a standard normal distribution. It means that if the sample mean is more than 1.96 standard errors away from the population mean, there is less than a 5% probability that the sample mean is from the same population (under the assumption of a normal distribution).</p>
-</section>
-<section id="conclusion" class="level3">
-<h3 class="anchored" data-anchor-id="conclusion">Conclusion:</h3>
+<section id="conclusion" class="level4">
+<h4 class="anchored" data-anchor-id="conclusion">Conclusion:</h4>
 <p>In this example, because the z-score of -2 falls outside the critical range of ±1.96, we would reject the null hypothesis that the sample mean is equal to the population mean. This suggests that the observed difference is statistically significant and not just due to random sampling error. It raises the possibility that this sample may come from a different population.</p>
 
 
+</section>
 </section>
 </section>
 
