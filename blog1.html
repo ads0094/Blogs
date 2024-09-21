@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>blog1 – Blog Posts</title>
+<title>blog1 – Blogs by Aryan</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,35 +67,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -107,7 +78,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Blog Posts</span>
+    <span class="navbar-title">Blogs by Aryan</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -118,7 +89,7 @@ window.Quarto = {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./posts.html"> 
@@ -148,255 +119,10 @@ window.Quarto = {
 
 
 <p><link rel="stylesheet" href="blog-1_styles.css"></p>
-<section id="inferential-statistics-statistics-parameters" class="level3">
-<h3 class="anchored" data-anchor-id="inferential-statistics-statistics-parameters">Inferential Statistics: Statistics &amp; Parameters</h3>
-<section id="population" class="level4">
-<h4 class="anchored" data-anchor-id="population">Population:</h4>
-<p>A population is a “group” that a researcher is interested in studying, for example if the researcher wants to find the height of all the adult US male population then ALL the male adults in the US form the population for our researcher. A researcher can choose the <strong>common traits</strong> that form the population for their study. For example a researcher might be interested in studying the height of adult US male population with the red hair. Researcher can continue to add the traits that define his population. However, adding too many traits may limit the eventual size of the population which also limits the groups to which the findings can be rightfully extrapolated. Furthermore, the population may be finite or infinite, and if all the members of the population are included then its called census and the values obtained are called the census data.</p>
-</section>
-<section id="parameter" class="level4">
-<h4 class="anchored" data-anchor-id="parameter">Parameter</h4>
-<p>A parameter is any measure obtained by studying the population. Given that measuring the entire population is often times impossible, population parameters (denoted by <span class="math inline">\(\theta\)</span>) are often estimated or inferred.</p>
-</section>
-<section id="sample" class="level4">
-<h4 class="anchored" data-anchor-id="sample">Sample</h4>
-<p>A sample subset of the population that is selected for study instead. Larger the population the better the findings from the sample will be, although they need not to be too big if the chosen sample is representative of the population.</p>
-</section>
-<section id="statistic" class="level4">
-<h4 class="anchored" data-anchor-id="statistic">Statistic</h4>
-<p>Just as the parameter is measured from the population, statistic is measured from the sample. For example if the researcher wants to find out the average (mean) height of male students in the Engineering department at the given university, and given there are thousands of students enrolled in the engineering department, the researcher decides to select the subset of the population —a sample for his study. The <strong>average (mean) height</strong> of the students derived from his sample is called the <strong>sample statistic</strong>, often denoted with “bar”, like <span class="math inline">\(\bar x\)</span>, whereas the average height of all the male students in the engineering department at the given university is called the <strong>population parameter</strong>., often denoted with <span class="math inline">\(\theta\)</span>.</p>
-<blockquote class="blockquote">
-<p>Inferential statistics is the technique of predicting unknown parameters on the basis of the known statistics — the act of generalizing to the many after having observed the few.</p>
-</blockquote>
-</section>
-<section id="techniques-of-the-sampling" class="level4">
-<h4 class="anchored" data-anchor-id="techniques-of-the-sampling">Techniques of the sampling:</h4>
-<p>To make accurate predictions, a sample must be <strong>representative</strong> of the population. This means the sample should mirror the population in terms of <strong>key characteristics</strong>.</p>
-<p>A representative sample provides a “miniature mirror” of the population, allowing researchers to generalize findings accurately.</p>
-<p>Two key techniques for obtaining representative samples are <strong>random sampling</strong> and <strong>stratified or quota sampling</strong>.</p>
-</section>
-<section id="random-sampling" class="level4">
-<h4 class="anchored" data-anchor-id="random-sampling">Random Sampling</h4>
-<p><strong>Definition</strong>: Random sampling is a method where every member of the population has an <strong>equal</strong> <strong>chance</strong> of being selected, ensuring that no subgroups are systematically excluded. True random sampling is deliberate and structured, not haphazard, to avoid bias.</p>
-<p><strong>Challenges in Achieving True Random Sampling:</strong> For instance, selecting people based on their availability at specific times of the day excludes those who are not available, leading to a biased sample. The goal is to ensure that every individual in the population has an equal chance of being selected, without any systematic exclusions.</p>
-<p><strong>Self-Selected Samples and Bias: I</strong>f individuals select themselves into the sample (e.g., by choosing to respond to a survey), the sample is not random and will likely be biased. Examples include surveys where participants choose to respond, which attracts a certain type of respondent (those with strong opinions or more time), leading to non-representative results.</p>
-<p><strong>The Importance of Non-Biased Sampling in Research: Non-biased</strong>, random sampling is crucial for accurate research and generalization. It warns against the common pitfalls of non-random sampling, such as allowing individuals to select themselves into a study or using convenience sampling methods that systematically exclude certain groups.</p>
-</section>
-<section id="stratified-or-quota-sampling" class="level4">
-<h4 class="anchored" data-anchor-id="stratified-or-quota-sampling">Stratified or Quota Sampling</h4>
-<p>Another technique for selecting a representative sample is stratified sampling. This is sometimes combined with the random sampling in such a way that first the researcher will identify the subgroups within the population based on certain characteristics and then take random samples from each subgroup to make the overall sample representative of the population. For example if the researcher interested in studying the education levels of adults in city. The researcher can identify many characteristics that differentiate different groups of people such as neighborhoods, race, gender, and many more. The researcher will then find out the proportions of population with different characteristics through government census data, and then generate random samples from the each subgroup representative of their actual proportion in the population. For example if 32% of the population are non-white people then researcher will generate random samples of non-white population that will make up 32% of his total sample size. For example if the total sample size is 1000 then 320 of these will be non-white people randomly chosen.</p>
-</section>
-</section>
-<section id="sampling-error" class="level3">
-<h3 class="anchored" data-anchor-id="sampling-error">Sampling Error</h3>
-<p>Sampling error is simply the difference between the population parameter and the sample statistics for example if the population mean (<span class="math inline">\(\mu\)</span>) is 39 and the sample mean <span class="math inline">\(\bar x\)</span> is 37 then the sampling error is <span class="math inline">\(39-37=2\)</span>. The sampling error is natural deviation between the population parameter and our estimated statistic. This sampling error is random meaning that it can go either way; it can either be positive or negative. The probability of the sample mean being less than the population mean is 0.5 because the probability that a sample mean will be above the population mean is 0.5. The sampling error under the normal should cancel out each other meaning that 50% of the time there should be negative errors and 50% of the times there should be positive errors.</p>
-</section>
-<section id="outliers" class="level3">
-<h3 class="anchored" data-anchor-id="outliers">Outliers</h3>
-<p>These are the extreme values usually 3 or more SDs away from the mean. Outliers can indicate that the distribution is not normal or that some error is has occurred.</p>
-</section>
-<section id="bias" class="level3">
-<h3 class="anchored" data-anchor-id="bias">Bias</h3>
-<p>Bias occurs when the sample differs from the population systematically at large. Simply put, Bias is when all the sampling errors load up on one side which severely underestimate or overestimate the population parameter (mean, usually). This can be due to sampling bias, selection bias any other form bias makes the sample less representative of the actual population and thus, the findings from this sample are a “bias”.</p>
-</section>
-<section id="sampling-distribution" class="level2">
-<h2 class="anchored" data-anchor-id="sampling-distribution">Sampling distribution</h2>
-<p>In the sampling distributions, each point on the x-axis represents the groups/sample performance (usually arithmetic mean).</p>
-<section id="mean-of-the-distribution-of-means" class="level3">
-<h3 class="anchored" data-anchor-id="mean-of-the-distribution-of-means">Mean of the distribution of Means</h3>
-<p>Sampling distribution is when we take many samples from the population, compute the mean of the each of the samples and then create a distribution of the sample means obtained from all the samples by adding up all the sample means and dividing by the number of samples. This is different from the individual points within the sample. When there is only one sample, then the researcher would compute the mean and standard deviation to see how spread out the sample data is from its mean. Sampling distribution requires the researcher to compute the mean for many samples taken from the population and then create a distribution of the sample means. This allows the researcher to see how spread out the sample means are from each other, and the mean of sampling distribution (mean of the means of the distribution). This can look like this: <span class="math inline">\(M_1=x_1, M_2=x_2, M_3=x_3, ... M_n=x_n\)</span>. The sample distribution mean can be <span class="math inline">\(\bar X\)</span>. This mean of the distribution of the sample means is equal to the parameter mean $\mu$. Therefore, <span class="math inline">\(M_M=\mu\)</span> where <span class="math inline">\(M_M\)</span> is the mean of the distribution of the sample means — a kind of super-mea</p>
-<section id="standard-error-of-the-mean" class="level4">
-<h4 class="anchored" data-anchor-id="standard-error-of-the-mean">Standard Error of the Mean</h4>
-<p><strong>Standard deviation Vs the Standard error of the mean</strong></p>
-<p>The SD of the sample is denoted by SD whereas the standard deviation of the population is denoted by the <span class="math inline">\(\sigma\)</span>.</p>
-<p><span class="math inline">\(\sigma\)</span> is used to measure the variability within the entire population.</p>
-<p>Standard deviation <span class="math inline">\((s)\)</span> measures the variability within a sample. However, this variability is an estimate because the sample is only a part of the population.</p>
-<p>Comparing the Two Standard Deviations: Distribution of Individual Scores vs.&nbsp;Distribution of Means, we know that the standard deviation of the sample means is also known as the standard error of the mean.</p>
-<p>The standard deviation of the distribution of means ( <span class="math inline">\(\sigma_{\bar{X}}\)</span> ) or the standard error of the mean when the population <span class="math inline">\(\sigma\)</span> is known, is given by: <span class="math inline">\(\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}\)</span></p>
-<p>Where:</p>
-<ul>
-<li><p><span class="math inline">\(\sigma\)</span> is the standard deviation of the population.</p></li>
-<li><p><span class="math inline">\(n\)</span> is the sample size.</p></li>
-</ul>
-<p>This implies: a<strong>s the sample size increases, the standard deviation of the distribution of means or SEM decreases</strong>. This means that larger samples lead to more precise estimates of the population mean.</p>
-<p>As an example if 30 students are measured and if you were to average the scores of many groups of 30 students, the average scores (means) would vary less than the individual scores within each group. This reduced variability is captured by the standard error.</p>
-<p>The <strong>Standard Error of the Mean (SEM)</strong> is a statistical measure that <strong>estimates the variability of the sample mean relative to the true population mean</strong>. It essentially tells you how much the sample means <span class="math inline">\(\bar X\)</span> is expected to fluctuate from the actual population mean <span class="math inline">\(\mu\)</span> if you were to take multiple samples from the same population.</p>
-<p>The SEM is the standard deviation of the sampling distribution of the sample mean. It quantifies the precision of the sample mean as an estimate of the population mean.</p>
-<p><strong>Formula</strong>: <span class="math inline">\(\text{SEM} = \frac{\sigma}{\sqrt{n}}\)</span></p>
-<ul>
-<li><p><span class="math inline">\(\sigma\)</span>: Population standard deviation.</p></li>
-<li><p><span class="math inline">\(n\)</span>: Sample size.</p></li>
-</ul>
-<p>If the <strong>population standard deviation</strong> <span class="math inline">\(\sigma\)</span> <strong>is unknown</strong>, the sample standard deviation <span class="math inline">\(s\)</span> can be used as an estimate: <span class="math inline">\(\text{SEM} = \frac{s}{\sqrt{n}}\)</span></p>
-<p>In this case we denote the SEM as <span class="math inline">\(s_{\bar X}\)</span>.</p>
-<p><strong>Interpretation</strong>:</p>
-<ul>
-<li><p>A <strong>smaller SEM</strong> indicates that the sample mean is a more accurate reflection of the population mean, meaning there is less variability in the sample means across different samples.</p></li>
-<li><p>A <strong>larger SEM</strong> suggests more variability among sample means, implying that the sample mean might not be as close to the population mean.</p></li>
-</ul>
-<p><strong>Application</strong>:</p>
-<ul>
-<li><p><strong>Confidence Intervals</strong>: SEM is often used to construct confidence intervals for the population mean. For instance, a 95% confidence interval gives a range that likely contains the true population mean.</p></li>
-<li><p><strong>Hypothesis Testing</strong>: In hypothesis testing, SEM is used to assess whether a sample mean significantly differs from a hypothesized population mean.</p></li>
-</ul>
-<p><strong>Example 1: ONE sample from the Population:</strong></p>
-<p>(In this example we do <strong>not</strong> have a sampling distribution)</p>
-<p>Suppose you have a sample of 100 students, and you want to estimate the average height of all students at a university. You calculate the sample mean height <span class="math inline">\(\bar{x}\)</span> and the sample standard deviation <span class="math inline">\(s\)</span>.</p>
-<ul>
-<li><p><strong>Sample Size (n)</strong>: 100</p></li>
-<li><p><strong>Sample Standard Deviation (s)</strong>: 5 cm</p></li>
-</ul>
-<p>The <strong>Standard Error of the Mean</strong> is calculated as: <span class="math inline">\(\text{SEM} = \frac{s}{\sqrt{n}} = \frac{5}{\sqrt{100}} = \frac{5}{10} = 0.5 \text{ cm}\)</span></p>
-<p>Note that here we have used one large sample n=100 to compute the mean and standard deviation. And then used this standard deviation to compute SEM. The advantage is that the large sample size takes effect on the precision of our estimates making it more reliable and giving us a lower SEM.</p>
-<p><strong>Summary:</strong></p>
-<p>The <strong>Standard Error of the Mean (SEM)</strong> provides a measure of how well a sample mean estimates the true population mean. A lower SEM indicates a more reliable sample mean, while a higher SEM suggests more variability and less reliability. It plays a crucial role in statistical inference, particularly in constructing confidence intervals and conducting hypothesis tests.</p>
-<p>We can compute the SEM for multiple samples.</p>
-<p><strong>Example 2: Multiple samples from the Population</strong></p>
-<p>In this example we do have a sampling distribution as we are taking multiple samples from the population.</p>
-<p><strong>Step 1: Define a Population</strong></p>
-<p>We don’t know the exact population mean or standard deviation, and our goal is to estimate them using samples.</p>
-<ul>
-<li><p><strong>Population</strong>: Test scores of all students in a large school.</p></li>
-<li><p><strong>Population Mean</strong>: Unknown.</p></li>
-<li><p><strong>Population Standard Deviation</strong>: Unknown.</p></li>
-</ul>
-<p><strong>Step 2: Take Multiple Samples from the Population</strong></p>
-<p>We take 4 random samples, each consisting of 5 students’ test scores.</p>
-<ul>
-<li><p><strong>Sample 1</strong>: 78, 82, 85, 90, 92</p></li>
-<li><p><strong>Sample 2</strong>: 72, 88, 80, 76, 84</p></li>
-<li><p><strong>Sample 3</strong>: 95, 92, 85, 87, 90</p></li>
-<li><p><strong>Sample 4</strong>: 68, 75, 70, 80, 82</p></li>
-</ul>
-<p><strong>Step 3: Calculate the Mean for Each Sample</strong></p>
-<p>Now, we calculate the mean of each sample:</p>
-<ol type="1">
-<li><p>Mean of Sample 1: <span class="math inline">\(\bar{X}_1 = \frac{78 + 82 + 85 + 90 + 92}{5} = \frac{427}{5} = 85.4\)</span></p></li>
-<li><p>Mean of Sample 2: <span class="math inline">\(\bar{X}_2 = \frac{72 + 88 + 80 + 76 + 84}{5} = \frac{400}{5} = 80\)</span></p></li>
-<li><p>Mean of Sample 3: <span class="math inline">\(\bar{X}_3 = \frac{95 + 92 + 85 + 87 + 90}{5} = \frac{449}{5} = 89.8\)</span></p></li>
-<li><p>Mean of Sample 4: <span class="math inline">\(\bar{X}_4 = \frac{68 + 75 + 70 + 80 + 82}{5} = \frac{375}{5} = 75\)</span></p></li>
-</ol>
-<p><strong>Step 4: Create a Distribution of the Sample Means</strong></p>
-<p>Now that we have the means of the four samples:</p>
-<ul>
-<li><p>Sample 1 Mean: 85.4</p></li>
-<li><p>Sample 2 Mean: 80</p></li>
-<li><p>Sample 3 Mean: 89.8</p></li>
-<li><p>Sample 4 Mean: 75</p></li>
-</ul>
-<p>We can now create a distribution of these sample means.</p>
-<p><strong>Step 5: Calculate the Mean of the Sample Means</strong></p>
-<p><span class="math inline">\(\text{Mean of Sample Means} = \frac{85.4 + 80 + 89.8 + 75}{4} = \frac{330.2}{4} = 82.55\)</span> ⇒ we can call this the <strong>grand mean</strong> <span class="math inline">\((\bar {\bar {x}})\)</span>.</p>
-<p>So, the mean of the sample means is <span class="math inline">\(\bar {\bar {x}}\)</span>= <strong>82.55</strong>.</p>
-<p><strong>Step 6: Calculate the Standard Error of the Mean (SEM)</strong></p>
-<p><strong>Step 6.1: Calculate the Standard Deviation of the Sample Means</strong></p>
-<p>To calculate the SEM, we need the standard deviation of the sample means. We will treat the sample means as data points and calculate their standard deviation.</p>
-<ol type="1">
-<li><strong>Deviations of Each Sample Mean from the Mean of Sample Means</strong>:</li>
-</ol>
-<pre><code>$(85.4 - 82.55)^2 = 8.1225$
-
-$(80 - 82.55)^2 = 6.5025$
-
-$(89.8 - 82.55)^2 = 52.0225$
-
-$(75 - 82.55)^2 = 57.0025$</code></pre>
-<ol start="2" type="1">
-<li><p><strong>Sum the Squared Deviations</strong>: <span class="math inline">\(\text{Sum of Squared Deviations} = 8.1225 + 6.5025 + 52.0225 + 57.0025 = 123.65\)</span></p></li>
-<li><p><strong>Calculate the Variance</strong> by dividing by <span class="math inline">\(n-1\)</span> (degrees of freedom, where <span class="math inline">\(n = 4\)</span>: <span class="math inline">\(\text{Variance} = \frac{123.65}{3} \approx 41.2167\)</span></p></li>
-<li><p><strong>Calculate the Standard Deviation</strong> <span class="math inline">\(s\)</span> by taking the square root of the variance: <span class="math inline">\(s = \sqrt{41.2167} \approx 6.42\)</span>: this <span class="math inline">\(s\)</span> is the standard deviation of the sample means: variability around the grand mean <span class="math inline">\((\bar {\bar {x}})\)</span></p></li>
-</ol>
-<p><strong>Step 6.2: Use the Standard Deviation to Calculate SEM</strong></p>
-<p>Now that we have the standard deviation of the sample means ($s = 6.42$), we can calculate the <strong>SEM</strong> using the formula: <span class="math inline">\(\text{SEM} = \frac{s}{\sqrt{n}} = \frac{6.42}{\sqrt{4}} = \frac{6.42}{2} = 3.21\)</span></p>
-<p>Final Answer:</p>
-<ul>
-<li><p><strong>Mean of the Sample Means</strong>: 82.55</p></li>
-<li><p><strong>Standard Error of the Mean (SEM)</strong>: 3.21</p></li>
-</ul>
-<blockquote class="blockquote">
-<p><strong>Central Limit Theorem</strong>: In short this theory states that if we take a large enough sample (usually &gt;30) then our sampling distribution approaches normality.</p>
-</blockquote>
-</section>
-<section id="z-scores-in-the-context-of-sampling-distribution" class="level4">
-<h4 class="anchored" data-anchor-id="z-scores-in-the-context-of-sampling-distribution">Z-Scores in the Context of Sampling Distribution</h4>
-<p>After having calculated the SEM from multiple samples, the next step is often to construct the confidence interval — an interval that contains the true parameter value with a certain degree of confidence such as 80%, 90%, 95% (most common) and 99%. Our hypothesised <span class="math inline">\(\mu\)</span>, which we have estimated using a large sample $(n\ge 30)$, is our point estimate. As mentioned this is an estimate of the population mean <span class="math inline">\(\mu\)</span>, and due to sampling error this estimate of the mean may not be valid, but it is our best guess and likely very close to the true population mean.</p>
-<p>For a z-test, you need to know:</p>
-<ol type="1">
-<li><p>The population standard deviation (σ)</p></li>
-<li><p>Either: a) The population mean (μ) if you’re comparing a sample to a known population OR b) The hypothesised difference between means if you’re comparing two populations</p></li>
-</ol>
-<p>It’s important to note:</p>
-<ul>
-<li><p>You don’t always need to know the population mean for all types of z-tests.</p></li>
-<li><p>The critical element is knowing the population standard deviation (σ).</p></li>
-</ul>
-<p>Here are the common scenarios:</p>
-<ul>
-<li>One-sample z-test:</li>
-</ul>
-<pre><code>You know the population standard deviation ($\sigma$ )
-
-You know or hypothesize a population mean ($\mu$)
-
-You compare your sample mean to this known/hypothesized population mean</code></pre>
-<ul>
-<li>Two-sample z-test:</li>
-</ul>
-<pre><code>You know the population standard deviations for both populations
-
-You don't necessarily need to know the population means
-
-You're testing if there's a significant difference between the two population means</code></pre>
-<ul>
-<li>Z-test for proportions:</li>
-</ul>
-<pre><code>Used for categorical data
-
-You don't need to know means or standard deviations
-
-You use the properties of the binomial distribution</code></pre>
-<p>So, to summarize: for a z-test, you always need to know the population standard deviation(s), but you don’t always need to know the population mean(s). The population mean might be what you’re testing against or trying to estimate.</p>
-<p>In the context of a <strong>sampling distribution</strong>, z-scores are used to determine how unusual or typical a sample mean is relative to the population mean. The <strong>z-test</strong> is a statistical method that allows you to test whether the difference between a sample mean and the known population mean is statistically significant or whether it could be attributed to sampling error. OR if we are computing the means for to population, we need to know the hypothesised difference between the two populations.</p>
-<p>Example:</p>
-<ul>
-<li><p><strong>Population Mean (μ)</strong>: 100</p></li>
-<li><p><strong>Population Standard Deviation (σ)</strong>: 15</p></li>
-<li><p><strong>Sample Mean (</strong> <span class="math inline">\(\bar{x}\)</span> <strong>)</strong>: 95</p></li>
-<li><p><strong>Sample Size (n)</strong>: 36</p></li>
-</ul>
-<p>To determine if the difference between the sample mean and the population mean is due to random sampling error or if the sample is likely not from the same population we conduct a <strong>Z test.</strong></p>
-</section>
-</section>
-<section id="steps-to-conduct-a-z-test" class="level3">
-<h3 class="anchored" data-anchor-id="steps-to-conduct-a-z-test">Steps to Conduct a Z-Test:</h3>
-<ol type="1">
-<li><p><strong>Calculate the Standard Error of the Mean (SEM):</strong></p></li>
-<li><p>The SEM represents the standard deviation of the sampling distribution of the sample mean. It is calculated using the formula: <span class="math inline">\(\text{SEM} = \frac{\sigma}{\sqrt{n}} = \frac{15}{\sqrt{36}} = \frac{15}{6} = 2.5\)</span></p></li>
-<li><p><strong>Calculate the Z-Score:</strong></p></li>
-</ol>
-<p>The z-score tells you how many standard errors the sample mean is away from the population mean. The formula for calculating the z-score in this context is: <span class="math inline">\(z = \frac{\bar{x} - \mu}{\text{SEM}} = \frac{95 - 100}{2.5} = \frac{-5}{2.5} = -2\)</span> This z-score of -2 means that the sample mean is 2 standard errors below the population mean.</p>
-<ol start="3" type="1">
-<li><strong>Compare the Z-Score to the Critical Value:</strong></li>
-</ol>
-<p>In many cases, you use a z-table or a standard normal distribution table to find the probability associated with the z-score. However, in hypothesis testing, you often compare the z-score to a critical value. The critical value depends on the confidence level you are working with:</p>
-<ul>
-<li><strong>For a 95% confidence level</strong>, the critical z-values are <strong>±1.96</strong>.</li>
-</ul>
-<p>Since our calculated z-score is -2, which is less than -1.96, it falls outside the range of what is typically expected if the sample were drawn from this population.</p>
-<p><strong>Interpretation:</strong></p>
-<ul>
-<li><p><strong>If the z-score falls within the range of -1.96 to 1.96</strong>, the difference between the sample mean and the population mean could likely be due to random sampling error.</p></li>
-<li><p><strong>If the z-score falls outside this range</strong>, as it does in our example, it suggests that the sample mean is significantly different from the population mean. Therefore, it’s unlikely that this sample comes from the population with a mean of 100.</p></li>
-</ul>
-<p><strong>Understanding the 1.96 Rule:</strong></p>
-<p>The “1.96 rule” corresponds to a <strong>95% confidence interval</strong> in a standard normal distribution. It means that if the sample mean is more than 1.96 standard errors away from the population mean, there is less than a 5% probability that the sample mean is from the same population (under the assumption of a normal distribution).</p>
-<section id="conclusion" class="level4">
-<h4 class="anchored" data-anchor-id="conclusion">Conclusion:</h4>
-<p>In this example, because the z-score of -2 falls outside the critical range of ±1.96, we would reject the null hypothesis that the sample mean is equal to the population mean. This suggests that the observed difference is statistically significant and not just due to random sampling error. It raises the possibility that this sample may come from a different population.</p>
+<section id="section" class="level3">
+<h3 class="anchored" data-anchor-id="section"></h3>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->
