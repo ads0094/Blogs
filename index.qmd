@@ -19,5 +19,3 @@ html:
 Hi, I am Aryan Sultan, an avid explorer of economic trends and forecasting methodologies. Here, I share my insights through blogs about topics related to economics, statistics, the science of forecasting, and more. My goal is to share knowledge and spark discussions on topics I find fascinating.
 
 You can learn more about me [here](https://ads0094.github.io/arian.github.io/){style="color: white;"}.
-
-Discover more about how data drives decisions in the world of economics, and join me in discussing future trends and opportunities.
