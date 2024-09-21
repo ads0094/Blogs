@@ -17,6 +17,7 @@ body {
 .content-container {
     display: flex;
     align-items: center; /* Align items vertically in the center */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
     justify-content: flex-start; /* Align items to the start of the container */
 }
 

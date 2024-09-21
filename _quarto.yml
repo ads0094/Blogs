@@ -2,10 +2,10 @@ project:
   type: website
 
 website:
-  title: "Blog Posts"
+  title: "Blogs by Aryan"
   navbar:
     right:
-      - text: "Home"
+      - text: ""
         href: index.html
       - text: "Blog-Posts"
         href: posts.html
