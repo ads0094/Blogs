@@ -1,5 +1,5 @@
 ---
-title: Navigating Trade Winds: Australia’s Economic Resilience Amid China’s Slowdown
+title: "Navigating Trade Winds: Australia’s Economic Resilience Amid China’s Slowdown"
 format: html
 editor: visual
 html:

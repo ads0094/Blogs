@@ -14,4 +14,4 @@ html:
 
 ## Posts
 
--   [Inferential Statistics: Parameters and Statistics](blog1.html){style="color:white;"}
+-   [Navigating Trade Winds: Australia’s Economic Resilience Amid China’s Slowdown](_site/blog1.html){style="color: white"}
