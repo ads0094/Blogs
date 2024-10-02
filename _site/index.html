@@ -126,12 +126,15 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://www.linkedin.com/in/aryan-sultan-khan-a0a664235/"><img src="myimage.jpeg" class="content-container img img-fluid quarto-figure quarto-figure-left figure-img" style="border-radius: 50%;" width="100"></a></p>
 </figure>
 </div>
-<section id="welcome-to-my-insights" class="level2">
-<h2 class="anchored" data-anchor-id="welcome-to-my-insights">Welcome to My Insights!</h2>
+<section id="welcome-to-my-insights" class="level2 content-container">
+<h2 class="content-container anchored" data-anchor-id="welcome-to-my-insights">Welcome to My Insights!</h2>
+<section id="section" class="level5 content-container p">
+<h5 class="content-container p anchored" data-anchor-id="section"></h5>
 <p>Hi, I am Aryan Sultan, an avid explorer of economic trends and forecasting methodologies. Here, I share my insights through blogs about topics related to economics, statistics, the science of forecasting, and more. My goal is to share knowledge and spark discussions on topics I find fascinating.</p>
 <p>You can learn more about me <a href="https://ads0094.github.io/arian.github.io/" style="color: white;">here</a>.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -227,7 +230,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/ads0094\.github\.io\/Blogs\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

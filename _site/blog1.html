@@ -164,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="uncertain-business-environment-and-regulation" class="level4">
 <h4 class="anchored" data-anchor-id="uncertain-business-environment-and-regulation">Uncertain Business Environment and Regulation</h4>
-<p>Chinese companies are also navigating a complex regulatory landscape. The government’s deleveraging efforts, combined with external pressures such as tariffs on Chinese goods, have created uncertainty in the business environment. Deleveraging could lead to defaults, particularly in the property sector, where debt is highest. Moreover, as China seeks to maintain its economic model, there is a growing concern that Western countries may inadvertently subsidize this model through continued trade relations, despite existing trade tensions.</p>
+<p>Chinese companies are also navigating a complex regulatory landscape. The government’s deleveraging efforts, combined with external pressures such as tariffs on Chinese goods, have created uncertainty in the business environment. Deleveraging could lead to defaults, particularly in the property sector, where debt is highest. Moreover, as China seeks to maintain its economic model, there is a growing concern that Western countries may inadvertently subsidise this model through continued trade relations, despite existing trade tensions.</p>
 <p>In summary, while China has made significant strides in reforming its economy, its high debt levels, demographic challenges, and reliance on external trade partners present substantial risks to its future stability.</p>
 </section>
 </section>
@@ -278,7 +278,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/ads0094\.github\.io\/Blogs\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

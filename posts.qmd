@@ -12,6 +12,6 @@ html:
 
 <link rel="stylesheet" href="about_styles.css">
 
-## Posts
+## Posts {.post-container}
 
 -   [Navigating Trade Winds: Australia’s Economic Resilience Amid China’s Slowdown](blog1.html){style="color: white"}

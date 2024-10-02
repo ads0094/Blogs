@@ -14,7 +14,9 @@ html:
 
 [![](myimage.jpeg){.content-container .img style="border-radius: 50%;" fig-align="left" width="100"}](https://www.linkedin.com/in/aryan-sultan-khan-a0a664235/)
 
-## Welcome to My Insights!
+## Welcome to My Insights! {.content-container}
+
+#####  {.content-container .p}
 
 Hi, I am Aryan Sultan, an avid explorer of economic trends and forecasting methodologies. Here, I share my insights through blogs about topics related to economics, statistics, the science of forecasting, and more. My goal is to share knowledge and spark discussions on topics I find fascinating.
 
