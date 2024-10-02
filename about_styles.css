@@ -14,6 +14,25 @@ body {
     padding-right: 5px;
 }
 
+.post-container {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 10px auto;
+    color: white; /* Ensures white text */
+}
+
+.content-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    justify-content: flex-start; /* Align items to the start of the container */
+}
+
+.text-content {
+    flex: 1; /* Allows the text container to fill up the remaining space */
+}
+
 .navbar {
   background-color: transparent;
   color: white;
