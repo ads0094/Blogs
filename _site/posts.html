@@ -125,6 +125,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="post-container anchored" data-anchor-id="posts">Posts</h2>
 <ul>
 <li><a href="blog1.html" style="color: white">Navigating Trade Winds: Australia’s Economic Resilience Amid China’s Slowdown</a></li>
+<li><a href="Blog2.html">Navigating Australia’s Shifting Property Market: Trends, Challenges, and the Path Forward</a></li>
 </ul>
 
 
@@ -223,7 +224,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/ads0094\.github\.io\/Blogs\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
