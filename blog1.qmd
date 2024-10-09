@@ -2,6 +2,7 @@
 title: "Navigating Trade Winds: Australia’s Economic Resilience Amid China’s Slowdown"
 format: html
 editor: visual
+date: "29-08-2024"
 html:
   includes:
     in-header: blog-1_styles.css
