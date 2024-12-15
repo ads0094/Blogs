@@ -1,0 +1,69 @@
+---
+title: "The Economy Decides: Lessons from the Latest US Election"
+format: html
+editor: visual
+date: "29-08-2024"
+html:
+  includes:
+    in-header: blog-1_styles.css
+---
+
+<link rel="stylesheet" href="blog-1_styles.css">
+
+The US election drama has concluded, leaving behind a mix of surprises and valuable lessons for us to analyse. Donald Trump has returned to the political stage, winning all seven key swing states and defeating Kamala Harris. For many, this result was shocking, but for others, it was a predictable reflection of deeper issues within the United States.
+
+As an observer, I believe this election teaches us a great deal about the power of economic concerns in shaping political outcomes, not just in the US but also globally. Let us explore these lessons in greater detail.
+
+### **Economic Desperation Outweighs Progressive Aspirations**
+
+The results of this election remind us that, in times of economic hardship, people prioritise survival over ideals. Many Americans are struggling with rising costs of living, stagnating wages, and fears about the future. For voters, these concerns overshadowed discussions about gender equality, climate change, and other progressive topics.
+
+This dynamic aligns with Maslow’s hierarchy of needs. When basic necessities such as food, housing, and job security are under threat, people naturally focus on these before considering higher aspirations. Voters’ choice of Trump may not reflect a rejection of progressive values but rather a demand for economic solutions.
+
+### **Swing States and the Misery Index**
+
+Swing states played a decisive role in Trump’s victory. These regions faced higher inflation and unemployment compared to wealthier states like California and New York. Economists often use the "misery index," which combines inflation and unemployment rates, to measure economic stress. In these states, the misery index was particularly high.
+
+Although the Biden administration introduced policies to revive manufacturing industries in areas like Michigan and Pennsylvania, these efforts were not enough to convince voters. Trump’s message, which focused on economic pain and dissatisfaction, resonated more effectively with these communities.
+
+### **Markets React to Trump’s Victory**
+
+The financial markets in the US responded quickly to Trump’s election win. Stock prices soared, bond yields climbed, and cryptocurrencies like Bitcoin and Dogecoin experienced dramatic increases. This reaction reflects investors’ belief that Trump’s policies—such as deregulation and tax cuts—will boost economic growth, even if they lead to higher interest rates.
+
+However, global markets reacted more cautiously. Countries that depend on international trade are wary of Trump’s history of imposing tariffs. His return raises fears of renewed trade wars, particularly with China. While US investors remain optimistic, the rest of the world is uncertain about how Trump’s policies will affect global economic stability.
+
+### **Global Inflation Trends and Central Bank Actions**
+
+While, globally, inflation is beginning to ease, the economic recovery remains uneven. Central banks are watching these trends carefully. For example, Australia’s Reserve Bank appears more neutral now, suggesting it may lower interest rates early next year if inflation continues to decline, focusing more on the trimmed mean inflation measure to guide the monetary policy.
+
+Wages in Australia have recently started to grow faster than inflation, giving workers their first real wage increases in years, which is a positive economic progress. However, RBA faces a difficult balancing act. While higher wages are good for workers, they can also drive inflation, especially in sectors like healthcare and education.
+
+### **The Challenge of Declining Living Standards**
+
+One of the key challenges facing governments worldwide is the decline in living standards. In Australia, for instance, GDP per capita and household consumption have been falling. This trend is not unique to Australia—it is a global issue, as seen in the United States, Europe, and beyond.
+
+Governments must balance spending on essential programs, such as healthcare and aged care, with measures to improve productivity. Without this balance, living standards will continue to decline. Public-sector expansion, while necessary in some areas, must be accompanied by efforts to boost private-sector productivity, which drives long-term economic growth.
+
+### **Trump’s Impact on Global Trade**
+
+Trump’s return raises questions about the future of global trade. His focus on tariffs and trade deficits could strain relations with major trading partners like China. During his first term, some countries—such as Vietnam and Mexico—benefited from redirected trade as a result of US tariffs on Chinese goods. This time, however, Trump has fewer constraints and may take more aggressive actions.
+
+Despite these risks, Trump’s desire to maintain high stock market performance could act as a restraint. In 2018, a sharp market decline forced him to scale back his trade war with China. Similar market pressures may prevent him from taking overly extreme measures this time.
+
+### **Inflation, Productivity, and the Way Forward**
+
+The election also highlights the importance of addressing productivity issues. Productivity—how much output is produced per worker—has stagnated in many developed economies since 2016. Historically, productivity growth has been the primary driver of rising living standards. Without it, wages cannot grow sustainably, and economic progress stalls.
+
+In countries like Australia, the public sector has grown faster than the private sector. While public services are essential, they often have lower productivity compared to private industries. Governments must find ways to improve productivity while maintaining the quality of public services.
+
+### **Voter Priorities and Lessons for Policymakers**
+
+One of the most important lessons from this election is the power of inflation to shape voter behaviour. While unemployment affects only a portion of the population, inflation impacts everyone. The Biden administration’s focus on job creation did not resonate as strongly as concerns about rising costs of living. This shows that voters care deeply about their purchasing power and financial security.
+
+Governments must prioritise policies that address these concerns. By controlling inflation and improving real wages, policymakers can restore public trust and prevent further political instability.
+
+### **Conclusion: A Global Lesson in Leadership**
+
+The 2024 US election offers valuable insights into the relationship between economics and politics. It demonstrates that economic concerns often outweigh ideological debates, and that voters demand tangible solutions to their problems. These lessons are not limited to the United States; they apply to governments and leaders worldwide.
+
+For policymakers, the challenge is to strike a balance between short-term relief and long-term stability. By addressing inflation, productivity, and declining living standards, governments can create a stronger foundation for future growth. As we watch the next chapter of this political and economic drama unfold, one thing is clear: the economy always decides.

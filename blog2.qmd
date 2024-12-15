@@ -38,7 +38,7 @@ Additionally, the uneven affordability across different regions is influencing i
 While there are concerns about housing affordability, Australia’s situation differs from the pre-Global Financial Crisis (GFC) housing bubble. Since the GFC, Australia has implemented several prudent lending practices. Regulatory bodies like APRA have tightened lending standards, imposing caps on high-risk loans, including interest-only mortgages and investor lending. These regulations, combined with Responsible Lending Obligations, ensure that borrowers are carefully assessed before loans are approved, reducing the risk of a housing bubble.
 
 ::: {style="float: left; margin-right: 15px; width: 40%;"}
-![Mortgage arrears chart](images/clipboard-2414752776.png){alt="Mortgage arrears chart"}
+![Mortgage arrears chart](images/clipboard-2414752776.png)
 :::
 
 <p>Non-performing loans (loans at least 90 days overdue) have increased to 0.93% of all loans, which is slightly higher than at the onset of the pandemic (0.92%). Loans 30-89 days overdue represent 0.68% of loans, up from 0.35% in 2022, and this is the highest level since Q2 2020. The average variable interest rate on outstanding home loans rose from 2.86% in April 2022 to 6.39% in March 2024, significantly increasing monthly repayment burdens.</p>
