@@ -12,8 +12,10 @@ html:
 
 <link rel="stylesheet" href="about_styles.css">
 
-## Posts {.post-container}
+## Welcome to Blogs by Aryan {.post-container}
+
+You can learn more about me [here](https://ads0094.github.io/arian.github.io/){style="color: white;"}.
 
 -   [Navigating Trade Winds: Australia’s Economic Resilience Amid China’s Slowdown](blog1.html){style="color: white"}
 -   [Navigating Australia's Shifting Property Market: Trends, Challenges, and the Path Forward](blog2.html){style="color: white"}
--   [The Economy Decides: Lessons from the Latest US Election](blog3.html)
+-   [The Economy Decides: Lessons from the Latest US Election](blog3.html){style="color: white"}
